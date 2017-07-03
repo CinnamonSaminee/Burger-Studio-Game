@@ -15,8 +15,8 @@ import java.util.ArrayList;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.InputStream;
-import sun.audio.AudioPlayer;
-import sun.audio.AudioStream;
+//import sun.audio.AudioPlayer;
+//import sun.audio.AudioStream;
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
@@ -183,9 +183,9 @@ public class Board extends JPanel implements ActionListener
 	timer.start ();
 
 	//Starts audio -- only plays once...
-	InputStream in = new FileInputStream (new File ("07_Gambang.wav"));
-	AudioStream audioStream = new AudioStream (in);
-	AudioPlayer.player.start (audioStream);
+	//InputStream in = new FileInputStream (new File ("07_Gambang.wav"));
+	//AudioStream audioStream = new AudioStream (in);
+	//AudioPlayer.player.start (audioStream);
     }
 
 

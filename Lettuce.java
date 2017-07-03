@@ -17,20 +17,19 @@ import java.awt.Rectangle;
 import javax.swing.ImageIcon;
 
 //Class representing the lettuces
-public class Lettuce
-{
+public class Lettuce extends Ingredient {
 
     private String craft = "Lettuce.png";
 
-    private int x;
-    private int y;
-    private int width;
-    private int height;
-    private boolean visible;
-    //Booleans determine if its falling or stacked
-    private boolean fall = true;
-    private boolean stacked = false;
-    private Image image;
+//    private int x;
+//    private int y;
+//    private int width;
+//    private int height;
+//    private boolean visible;
+//    //Booleans determine if its falling or stacked
+//    private boolean fall = true;
+//    private boolean stacked = false;
+//    private Image image;
 
 
 
