@@ -13,7 +13,6 @@ Description: A game called "Burger Studio". The player uses the
 */
 import java.awt.Image;
 import java.awt.Rectangle;
-
 import javax.swing.ImageIcon;
 
 //Class representing the onions

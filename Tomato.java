@@ -13,13 +13,12 @@ Description: A game called "Burger Studio". The player uses the
 */
 import java.awt.Image;
 import java.awt.Rectangle;
-
 import javax.swing.ImageIcon;
 
 //Class representing the tomatoes
 public class Tomato extends Ingredient {
 
-    private String craft = "Tomato.png"
+    private String craft = "Tomato.png";
 
     // Same design as the bun
     public Tomato (int x, int y) {
@@ -69,7 +68,6 @@ public class Tomato extends Ingredient {
     //Stacks the topping using bun coordnates and number of toppinngs stacked
     public void stack (Bun a, int b) {
 	   this.stacked = true; //boolean to show topping is stacked
-    
 	   this.x = a.getX ();
 	   this.y = 600 - b * 30;
     }
