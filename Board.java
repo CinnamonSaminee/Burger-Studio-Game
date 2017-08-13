@@ -559,504 +559,500 @@ public class Board extends JPanel implements ActionListener {
                     lettuceN--;
             }
 
-	    else if (rHit.intersects (rM1) && !m1.isStack ()) {
-            rHit = m1.getBounds ();
-            stackN++;
-            m1.stopFall ();
-            m1.stack (bun, stackN);
+    	    else if (rHit.intersects (rM1) && !m1.isStack ()) {
+                rHit = m1.getBounds ();
+                stackN++;
+                m1.stopFall ();
+                m1.stack (bun, stackN);
 
-            if (pattyN == 0)
-                lives--;
-            if (pattyN > 0)
-                pattyN--;
-        }
-	    else if (rHit.intersects (rM2) && !m2.isStack ()) {
-            rHit = m2.getBounds ();
-            stackN++;
-            m2.stopFall ();
-            m2.stack (bun, stackN);
+                if (pattyN == 0)
+                    lives--;
+                if (pattyN > 0)
+                    pattyN--;
+            }
+    	    else if (rHit.intersects (rM2) && !m2.isStack ()) {
+                rHit = m2.getBounds ();
+                stackN++;
+                m2.stopFall ();
+                m2.stack (bun, stackN);
 
-            if (pattyN == 0)
-                lives--;
-            if (pattyN > 0)
-                pattyN--;
-	    }
-	    else if (rHit.intersects (rM3) && !m3.isStack ()) {
-            rHit = m3.getBounds ();
-            stackN++;
-            m3.stopFall ();
-            m3.stack (bun, stackN);
+                if (pattyN == 0)
+                    lives--;
+                if (pattyN > 0)
+                    pattyN--;
+    	    }
+    	    else if (rHit.intersects (rM3) && !m3.isStack ()) {
+                rHit = m3.getBounds ();
+                stackN++;
+                m3.stopFall ();
+                m3.stack (bun, stackN);
 
-            if (pattyN == 0)
-                lives--;
-            if (pattyN > 0)
-                pattyN--;
-        }
-	    else if (rHit.intersects (rM4) && !m4.isStack ()) {
-            rHit = m4.getBounds ();
-            stackN++;
-            m4.stopFall ();
-            m4.stack (bun, stackN);
+                if (pattyN == 0)
+                    lives--;
+                if (pattyN > 0)
+                    pattyN--;
+            }
+    	    else if (rHit.intersects (rM4) && !m4.isStack ()) {
+                rHit = m4.getBounds ();
+                stackN++;
+                m4.stopFall ();
+                m4.stack (bun, stackN);
 
-            if (pattyN == 0)
-                lives--;
-            if (pattyN > 0)
-                pattyN--;
-        }
-	    else if (rHit.intersects (rM5) && !m5.isStack ()) {
-            rHit = m5.getBounds ();
-            stackN++;
-            m5.stopFall ();
-            m5.stack (bun, stackN);
+                if (pattyN == 0)
+                    lives--;
+                if (pattyN > 0)
+                    pattyN--;
+            }
+    	    else if (rHit.intersects (rM5) && !m5.isStack ()) {
+                rHit = m5.getBounds ();
+                stackN++;
+                m5.stopFall ();
+                m5.stack (bun, stackN);
 
-            if (pattyN == 0)
-                lives--;
-            if (pattyN > 0)
-                pattyN--;
-        }
+                if (pattyN == 0)
+                    lives--;
+                if (pattyN > 0)
+                    pattyN--;
+            }
 
-	    else if (rHit.intersects (rT1) && !t1.isStack ()) {
-            rHit = t1.getBounds ();
-            stackN++;
-            t1.stopFall ();
-            t1.stack (bun, stackN);
+    	    else if (rHit.intersects (rT1) && !t1.isStack ()) {
+                rHit = t1.getBounds ();
+                stackN++;
+                t1.stopFall ();
+                t1.stack (bun, stackN);
 
-            if (tomatoN == 0)
-                lives--;
-            if (tomatoN > 0)
-                tomatoN--;
-        }
-	    else if (rHit.intersects (rT2) && !t2.isStack ()) {
-            rHit = t2.getBounds ();
-            stackN++;
-            t2.stopFall ();
-            t2.stack (bun, stackN);
+                if (tomatoN == 0)
+                    lives--;
+                if (tomatoN > 0)
+                    tomatoN--;
+            }
+    	    else if (rHit.intersects (rT2) && !t2.isStack ()) {
+                rHit = t2.getBounds ();
+                stackN++;
+                t2.stopFall ();
+                t2.stack (bun, stackN);
 
-            if (tomatoN == 0)
-                lives--;
-            if (tomatoN > 0)
-                tomatoN--;
-        }
-	    else if (rHit.intersects (rT3) && !t3.isStack ()) {
-            rHit = t3.getBounds ();
-            stackN++;
-            t3.stopFall ();
-            t3.stack (bun, stackN);
+                if (tomatoN == 0)
+                    lives--;
+                if (tomatoN > 0)
+                    tomatoN--;
+            }
+    	    else if (rHit.intersects (rT3) && !t3.isStack ()) {
+                rHit = t3.getBounds ();
+                stackN++;
+                t3.stopFall ();
+                t3.stack (bun, stackN);
 
-            if (tomatoN == 0)
-                lives--;
-            if (tomatoN > 0)
-                tomatoN--;
-        }
-	    else if (rHit.intersects (rT4) && !t4.isStack ()) {
-            rHit = t4.getBounds ();
-            stackN++;
-            t4.stopFall ();
-            t4.stack (bun, stackN);
+                if (tomatoN == 0)
+                    lives--;
+                if (tomatoN > 0)
+                    tomatoN--;
+            }
+    	    else if (rHit.intersects (rT4) && !t4.isStack ()) {
+                rHit = t4.getBounds ();
+                stackN++;
+                t4.stopFall ();
+                t4.stack (bun, stackN);
 
-            if (tomatoN == 0)
-                lives--;
-            if (tomatoN > 0)
-                tomatoN--;
-        }
-	    else if (rHit.intersects (rT5) && !t5.isStack ()) {
-            rHit = t5.getBounds ();
-            stackN++;
-            t5.stopFall ();
-            t5.stack (bun, stackN);
+                if (tomatoN == 0)
+                    lives--;
+                if (tomatoN > 0)
+                    tomatoN--;
+            }
+    	    else if (rHit.intersects (rT5) && !t5.isStack ()) {
+                rHit = t5.getBounds ();
+                stackN++;
+                t5.stopFall ();
+                t5.stack (bun, stackN);
 
-            if (tomatoN == 0)
-                lives--;
-            if (tomatoN > 0)
-                tomatoN--;
-        }
+                if (tomatoN == 0)
+                    lives--;
+                if (tomatoN > 0)
+                    tomatoN--;
+            }
 
-	    else if (rHit.intersects (rO1) && !o1.isStack ()) {
-            rHit = o1.getBounds ();
-            stackN++;
-            o1.stopFall ();
-            o1.stack (bun, stackN);
+    	    else if (rHit.intersects (rO1) && !o1.isStack ()) {
+                rHit = o1.getBounds ();
+                stackN++;
+                o1.stopFall ();
+                o1.stack (bun, stackN);
 
-            if (onionN == 0)
-                lives--;
-            if (onionN > 0)
-                onionN--;
-        }
-	    else if (rHit.intersects (rO2) && !o2.isStack ()) {
-            rHit = o2.getBounds ();
-            stackN++;
-            o2.stopFall ();
-            o2.stack (bun, stackN);
+                if (onionN == 0)
+                    lives--;
+                if (onionN > 0)
+                    onionN--;
+            }
+    	    else if (rHit.intersects (rO2) && !o2.isStack ()) {
+                rHit = o2.getBounds ();
+                stackN++;
+                o2.stopFall ();
+                o2.stack (bun, stackN);
 
-            if (onionN == 0)
-                lives--;
-            if (onionN > 0)
-                onionN--;
-        }
-	    else if (rHit.intersects (rO3) && !o3.isStack ()) {
-            rHit = o3.getBounds ();
-            stackN++;
-            o3.stopFall ();
-            o3.stack (bun, stackN);
+                if (onionN == 0)
+                    lives--;
+                if (onionN > 0)
+                    onionN--;
+            }
+    	    else if (rHit.intersects (rO3) && !o3.isStack ()) {
+                rHit = o3.getBounds ();
+                stackN++;
+                o3.stopFall ();
+                o3.stack (bun, stackN);
 
-            if (onionN == 0)
-                lives--;
-            if (onionN > 0)
-                onionN--;
-        }
-	    else if (rHit.intersects (rO4) && !o4.isStack ()) {
-            rHit = o4.getBounds ();
-            stackN++;
-            o4.stopFall ();
-            o4.stack (bun, stackN);
+                if (onionN == 0)
+                    lives--;
+                if (onionN > 0)
+                    onionN--;
+            }
+    	    else if (rHit.intersects (rO4) && !o4.isStack ()) {
+                rHit = o4.getBounds ();
+                stackN++;
+                o4.stopFall ();
+                o4.stack (bun, stackN);
 
-            if (onionN == 0)
-                lives--;
-            if (onionN > 0)
-                onionN--;
-        }
-	    else if (rHit.intersects (rO5) && !o5.isStack ()) {
-            rHit = o5.getBounds ();
-            stackN++;
-            o5.stopFall ();
-            o5.stack (bun, stackN);
+                if (onionN == 0)
+                    lives--;
+                if (onionN > 0)
+                    onionN--;
+            }
+    	    else if (rHit.intersects (rO5) && !o5.isStack ()) {
+                rHit = o5.getBounds ();
+                stackN++;
+                o5.stopFall ();
+                o5.stack (bun, stackN);
 
-            if (onionN == 0)
-                lives--;
-            if (onionN > 0)
-                onionN--;
-        }
+                if (onionN == 0)
+                    lives--;
+                if (onionN > 0)
+                    onionN--;
+            }
 
+    	    else if (rHit.intersects (rP1) && !p1.isStack ()) {
+                rHit = p1.getBounds ();
+                stackN++;
+                p1.stopFall ();
+                p1.stack (bun, stackN);
 
+                if (pickleN == 0)
+                    lives--;
+                if (pickleN > 0)
+                    pickleN--;
+            }
+    	    else if (rHit.intersects (rP2) && !p2.isStack ()) {
+                rHit = p2.getBounds ();
+                stackN++;
+                p2.stopFall ();
+                p2.stack (bun, stackN);
 
-	    else if (rHit.intersects (rP1) && !p1.isStack ()) {
-            rHit = p1.getBounds ();
-            stackN++;
-            p1.stopFall ();
-            p1.stack (bun, stackN);
+                if (pickleN == 0)
+                    lives--;
+                if (pickleN > 0)
+                    pickleN--;
+            }
+    	    else if (rHit.intersects (rP3) && !p3.isStack ()) {
+                rHit = p3.getBounds ();
+                stackN++;
+                p3.stopFall ();
+                p3.stack (bun, stackN);
 
-            if (pickleN == 0)
-                lives--;
-            if (pickleN > 0)
-                pickleN--;
-        }
-	    else if (rHit.intersects (rP2) && !p2.isStack ()) {
-            rHit = p2.getBounds ();
-            stackN++;
-            p2.stopFall ();
-            p2.stack (bun, stackN);
+                if (pickleN == 0)
+                    lives--;
+                if (pickleN > 0)
+                    pickleN--;
+            }
+    	    else if (rHit.intersects (rP4) && !p4.isStack ()) {
+                rHit = p4.getBounds ();
+                stackN++;
+                p4.stopFall ();
+                p4.stack (bun, stackN);
 
-            if (pickleN == 0)
-                lives--;
-            if (pickleN > 0)
-                pickleN--;
-        }
-	    else if (rHit.intersects (rP3) && !p3.isStack ()) {
-            rHit = p3.getBounds ();
-            stackN++;
-            p3.stopFall ();
-            p3.stack (bun, stackN);
+                if (pickleN == 0)
+                    lives--;
+                if (pickleN > 0)
+                    pickleN--;
+            }
+    	    else if (rHit.intersects (rP5) && !p5.isStack ()) {
+                rHit = p5.getBounds ();
+                stackN++;
+                p5.stopFall ();
+                p5.stack (bun, stackN);
 
-            if (pickleN == 0)
-                lives--;
-            if (pickleN > 0)
-                pickleN--;
-        }
-	    else if (rHit.intersects (rP4) && !p4.isStack ()) {
-            rHit = p4.getBounds ();
-            stackN++;
-            p4.stopFall ();
-            p4.stack (bun, stackN);
+                if (pickleN == 0)
+                    lives--;
+                if (pickleN > 0)
+                    pickleN--;
+            }
 
-            if (pickleN == 0)
-                lives--;
-            if (pickleN > 0)
-                pickleN--;
-        }
-	    else if (rHit.intersects (rP5) && !p5.isStack ()) {
-            rHit = p5.getBounds ();
-            stackN++;
-            p5.stopFall ();
-            p5.stack (bun, stackN);
+    	    else if (rHit.intersects (rC1) && !c1.isStack ()) {
+                rHit = c1.getBounds ();
+                stackN++;
+                c1.stopFall ();
+                c1.stack (bun, stackN);
 
-            if (pickleN == 0)
-                lives--;
-            if (pickleN > 0)
-                pickleN--;
-        }
+                if (cheeseN == 0)
+                    lives--;
+                if (cheeseN > 0)
+                    cheeseN--;
+            }
+    	    else if (rHit.intersects (rC2) && !c2.isStack ()) {
+                rHit = c2.getBounds ();
+                stackN++;
+                c2.stopFall ();
+                c2.stack (bun, stackN);
 
+                if (cheeseN == 0)
+                    lives--;
+                if (cheeseN > 0)
+                    cheeseN--;
+            }
+    	    else if (rHit.intersects (rC3) && !c3.isStack ()) {
+                rHit = c3.getBounds ();
+                stackN++;
+                c3.stopFall ();
+                c3.stack (bun, stackN);
 
+                if (cheeseN == 0)
+                    lives--;
+                if (cheeseN > 0)
+                    cheeseN--;
+            }
+    	    else if (rHit.intersects (rC4) && !c4.isStack ()) {
+                rHit = c4.getBounds ();
+                stackN++;
+                c4.stopFall ();
+                c4.stack (bun, stackN);
 
-	    else if (rHit.intersects (rC1) && !c1.isStack ()) {
-            rHit = c1.getBounds ();
-            stackN++;
-            c1.stopFall ();
-            c1.stack (bun, stackN);
+                if (cheeseN == 0)
+                    lives--;
+                if (cheeseN > 0)
+                    cheeseN--;
+            }
+    	    else if (rHit.intersects (rC5) && !c5.isStack ()) {
+                rHit = c5.getBounds ();
+                stackN++;
+                c5.stopFall ();
+                c5.stack (bun, stackN);
 
-            if (cheeseN == 0)
-                lives--;
-            if (cheeseN > 0)
-                cheeseN--;
-        }
-	    else if (rHit.intersects (rC2) && !c2.isStack ()) {
-            rHit = c2.getBounds ();
-            stackN++;
-            c2.stopFall ();
-            c2.stack (bun, stackN);
+                if (cheeseN == 0)
+                    lives--;
+                if (cheeseN > 0)
+                    cheeseN--;
+            }
 
-            if (cheeseN == 0)
-                lives--;
-            if (cheeseN > 0)
-                cheeseN--;
-        }
-	    else if (rHit.intersects (rC3) && !c3.isStack ()) {
-            rHit = c3.getBounds ();
-            stackN++;
-            c3.stopFall ();
-            c3.stack (bun, stackN);
+    	    else if (rHit.intersects (rB1) && !b1.isStack ()) {
+                rHit = (null);
+                stackN++;
+                b1.stopFall ();
+                b1.stack (bun, stackN);
+                topbunB = true;
 
-            if (cheeseN == 0)
-                lives--;
-            if (cheeseN > 0)
-                cheeseN--;
-        }
-	    else if (rHit.intersects (rC4) && !c4.isStack ()) {
-            rHit = c4.getBounds ();
-            stackN++;
-            c4.stopFall ();
-            c4.stack (bun, stackN);
+                if (lettuceN == 0 && pattyN == 0 && tomatoN == 0 &&
+                    onionN == 0 && pickleN == 0 && cheeseN == 0) {
+                    win = true;
+                }
+            }
+    	    else if (rHit.intersects (rB2) && !b2.isStack ()) {
+                rHit = (null);
+                stackN++;
+                b2.stopFall ();
+                b2.stack (bun, stackN);
+                topbunB = true;
 
-            if (cheeseN == 0)
-                lives--;
-            if (cheeseN > 0)
-                cheeseN--;
-        }
-	    else if (rHit.intersects (rC5) && !c5.isStack ()) {
-            rHit = c5.getBounds ();
-            stackN++;
-            c5.stopFall ();
-            c5.stack (bun, stackN);
+                if (lettuceN == 0 && pattyN == 0 && tomatoN == 0 &&
+                    onionN == 0 && pickleN == 0 && cheeseN == 0) {
+                    win = true;
+                }
+            }
+    	    else if (rHit.intersects (rB3) && !b3.isStack ()) {
+                rHit = (null);
+                stackN++;
+                b3.stopFall ();
+                b3.stack (bun, stackN);
+                topbunB = true;
 
-            if (cheeseN == 0)
-                lives--;
-            if (cheeseN > 0)
-                cheeseN--;
-        }
+                if (lettuceN == 0 && pattyN == 0 && tomatoN == 0 &&
+                    onionN == 0 && pickleN == 0 && cheeseN == 0) {
+                    win = true;
+                }
+    	    }
+    	    else if (rHit.intersects (rB4) && !b4.isStack ()) {
+                rHit = (null);
+                stackN++;
+                b4.stopFall ();
+                b4.stack (bun, stackN);
+                topbunB = true;
 
-	    else if (rHit.intersects (rB1) && !b1.isStack ()) {
-            rHit = (null);
-            stackN++;
-            b1.stopFall ();
-            b1.stack (bun, stackN);
-            topbunB = true;
+                if (lettuceN == 0 && pattyN == 0 && tomatoN == 0 &&
+                    onionN == 0 && pickleN == 0 && cheeseN == 0) {
+                    win = true;
+                }
+            }
+    	    else if (rHit.intersects (rB5) && !b5.isStack ()) {
+                rHit = (null);
+                stackN++;
+                b5.stopFall ();
+                b5.stack (bun, stackN);
+                topbunB = true;
 
-            if (lettuceN == 0 && pattyN == 0 && tomatoN == 0 &&
-                onionN == 0 && pickleN == 0 && cheeseN == 0) {
-                win = true;
+                if (lettuceN == 0 && pattyN == 0 && tomatoN == 0 &&
+                    onionN == 0 && pickleN == 0 && cheeseN == 0) {
+                    win = true;
+                }
+    	    }
+	   }
+
+        //If a TopBun is caught
+    	if (topbunB) { //the toppings that are not stacked stop falling
+            if (!a1.isStack ()) {
+                //a1.setVisible (false);
+                a1.stopFall ();
+            }
+            if (!a2.isStack ()) {
+                //a2.setVisible (false);
+                a2.stopFall ();
+            }
+            if (!a3.isStack ()) {
+                //a3.setVisible (false);
+                a3.stopFall ();
+            }
+            if (!a4.isStack ()) {
+                //a4.setVisible (false);
+                a4.stopFall ();
+            }
+            if (!a5.isStack ()) {
+                //a5.setVisible (false);
+                a5.stopFall ();
+            }
+
+            if (!m1.isStack ()) {
+                //m1.setVisible (false);
+                m1.stopFall ();
+            }
+            if (!m2.isStack ()) {
+                //m2.setVisible (false);
+                m2.stopFall ();
+            }
+            if (!m3.isStack ()) {
+                //m3.setVisible (false);
+                m3.stopFall ();
+            }
+            if (!m4.isStack ()) {
+                //m4.setVisible (false);
+                m4.stopFall ();
+            }
+            if (!m5.isStack ()) {
+                //m5.setVisible (false);
+                m5.stopFall ();
+            }
+
+            if (!t1.isStack ()) {
+                //t1.setVisible (false);
+                t1.stopFall ();
+            }
+            if (!t2.isStack ()) {
+                //t2.setVisible (false);
+                t2.stopFall ();
+            }
+            if (!t3.isStack ()) {
+                //t3.setVisible (false);
+                t3.stopFall ();
+            }
+            if (!t4.isStack ()) {
+                //t4.setVisible (false);
+                t4.stopFall ();
+            }
+            if (!t5.isStack ()) {
+                //t5.setVisible (false);
+                t5.stopFall ();
+            }
+
+            if (!o1.isStack ()) {
+                //o1.setVisible (false);
+                o1.stopFall ();
+            }
+            if (!o2.isStack ()) {
+                //o2.setVisible (false);
+                o2.stopFall ();
+            }
+            if (!o3.isStack ()) {
+                //o3.setVisible (false);
+                o3.stopFall ();
+            }
+            if (!o4.isStack ()) {
+                //o4.setVisible (false);
+                o4.stopFall ();
+            }
+            if (!o5.isStack ()) {
+                //o5.setVisible (false);
+                o5.stopFall ();
+            }
+
+            if (!p1.isStack ()) {
+                //p1.setVisible (false);
+                p1.stopFall ();
+            }
+            if (!p2.isStack ()) {
+                //p2.setVisible (false);
+                p2.stopFall ();
+            }
+            if (!p3.isStack ()) {
+                //p3.setVisible (false);
+                p3.stopFall ();
+            }
+            if (!p4.isStack ()) {
+                //p4.setVisible (false);
+                p4.stopFall ();
+            }
+            if (!p5.isStack ()) {
+                //p5.setVisible (false);
+                p5.stopFall ();
+            }
+
+            if (!c1.isStack ()) {
+                //c1.setVisible (false);
+                c1.stopFall ();
+            }
+            if (!c2.isStack ()) {
+                //c2.setVisible (false);
+                c2.stopFall ();
+            }
+            if (!c3.isStack ()) {
+                //c3.setVisible (false);
+                c3.stopFall ();
+            }
+            if (!c4.isStack ()) {
+                //c4.setVisible (false);
+                c4.stopFall ();
+            }
+            if (!c5.isStack ()) {
+                //c5.setVisible (false);
+                c5.stopFall ();
+            }
+
+            if (!b1.isStack ()) {
+                //b1.setVisible (false);
+                b1.stopFall ();
+            }
+            if (!b2.isStack ()) {
+                //b2.setVisible (false);
+                b2.stopFall ();
+            }
+            if (!b3.isStack ()) {
+                //b3.setVisible (false);
+                b3.stopFall ();
+            }
+            if (!b4.isStack ()) {
+                //b4.setVisible (false);
+                b4.stopFall ();
+            }
+            if (!b5.isStack ()) {
+                //b5.setVisible (false);
+                b5.stopFall ();
             }
         }
-	    else if (rHit.intersects (rB2) && !b2.isStack ()) {
-            rHit = (null);
-            stackN++;
-            b2.stopFall ();
-            b2.stack (bun, stackN);
-            topbunB = true;
 
-            if (lettuceN == 0 && pattyN == 0 && tomatoN == 0 &&
-                onionN == 0 && pickleN == 0 && cheeseN == 0) {
-                win = true;
-            }
-        }
-	    else if (rHit.intersects (rB3) && !b3.isStack ()) {
-            rHit = (null);
-            stackN++;
-            b3.stopFall ();
-            b3.stack (bun, stackN);
-            topbunB = true;
-
-            if (lettuceN == 0 && pattyN == 0 && tomatoN == 0 &&
-                onionN == 0 && pickleN == 0 && cheeseN == 0) {
-                win = true;
-            }
-	    }
-	    else if (rHit.intersects (rB4) && !b4.isStack ()) {
-            rHit = (null);
-            stackN++;
-            b4.stopFall ();
-            b4.stack (bun, stackN);
-            topbunB = true;
-
-            if (lettuceN == 0 && pattyN == 0 && tomatoN == 0 &&
-                onionN == 0 && pickleN == 0 && cheeseN == 0) {
-                win = true;
-            }
-        }
-	    else if (rHit.intersects (rB5) && !b5.isStack ()) {
-            rHit = (null);
-            stackN++;
-            b5.stopFall ();
-            b5.stack (bun, stackN);
-            topbunB = true;
-
-            if (lettuceN == 0 && pattyN == 0 && tomatoN == 0 &&
-                onionN == 0 && pickleN == 0 && cheeseN == 0) {
-                win = true;
-            }
-	    }
-	}
-
-    //If a TopBun is caught
-	if (topbunB) { //the toppings that are not stacked stop falling
-        if (!a1.isStack ()) {
-            //a1.setVisible (false);
-            a1.stopFall ();
-        }
-        if (!a2.isStack ()) {
-            //a2.setVisible (false);
-            a2.stopFall ();
-        }
-        if (!a3.isStack ()) {
-            //a3.setVisible (false);
-            a3.stopFall ();
-        }
-        if (!a4.isStack ()) {
-            //a4.setVisible (false);
-            a4.stopFall ();
-        }
-        if (!a5.isStack ()) {
-            //a5.setVisible (false);
-            a5.stopFall ();
-        }
-
-        if (!m1.isStack ()) {
-            //m1.setVisible (false);
-            m1.stopFall ();
-        }
-        if (!m2.isStack ()) {
-            //m2.setVisible (false);
-            m2.stopFall ();
-        }
-        if (!m3.isStack ()) {
-            //m3.setVisible (false);
-            m3.stopFall ();
-        }
-        if (!m4.isStack ()) {
-            //m4.setVisible (false);
-            m4.stopFall ();
-        }
-        if (!m5.isStack ()) {
-            //m5.setVisible (false);
-            m5.stopFall ();
-        }
-
-        if (!t1.isStack ()) {
-            //t1.setVisible (false);
-            t1.stopFall ();
-        }
-        if (!t2.isStack ()) {
-            //t2.setVisible (false);
-            t2.stopFall ();
-        }
-        if (!t3.isStack ()) {
-            //t3.setVisible (false);
-            t3.stopFall ();
-        }
-        if (!t4.isStack ()) {
-            //t4.setVisible (false);
-            t4.stopFall ();
-        }
-        if (!t5.isStack ()) {
-            //t5.setVisible (false);
-            t5.stopFall ();
-        }
-
-        if (!o1.isStack ()) {
-            //o1.setVisible (false);
-            o1.stopFall ();
-        }
-        if (!o2.isStack ()) {
-            //o2.setVisible (false);
-            o2.stopFall ();
-        }
-        if (!o3.isStack ()) {
-            //o3.setVisible (false);
-            o3.stopFall ();
-        }
-        if (!o4.isStack ()) {
-            //o4.setVisible (false);
-            o4.stopFall ();
-        }
-        if (!o5.isStack ()) {
-            //o5.setVisible (false);
-            o5.stopFall ();
-        }
-
-        if (!p1.isStack ()) {
-            //p1.setVisible (false);
-            p1.stopFall ();
-        }
-        if (!p2.isStack ()) {
-            //p2.setVisible (false);
-            p2.stopFall ();
-        }
-        if (!p3.isStack ()) {
-            //p3.setVisible (false);
-            p3.stopFall ();
-        }
-        if (!p4.isStack ()) {
-            //p4.setVisible (false);
-            p4.stopFall ();
-        }
-        if (!p5.isStack ()) {
-            //p5.setVisible (false);
-            p5.stopFall ();
-        }
-
-        if (!c1.isStack ()) {
-            //c1.setVisible (false);
-            c1.stopFall ();
-        }
-        if (!c2.isStack ()) {
-            //c2.setVisible (false);
-            c2.stopFall ();
-        }
-        if (!c3.isStack ()) {
-            //c3.setVisible (false);
-            c3.stopFall ();
-        }
-        if (!c4.isStack ()) {
-            //c4.setVisible (false);
-            c4.stopFall ();
-        }
-        if (!c5.isStack ()) {
-            //c5.setVisible (false);
-            c5.stopFall ();
-        }
-
-        if (!b1.isStack ()) {
-            //b1.setVisible (false);
-            b1.stopFall ();
-        }
-        if (!b2.isStack ()) {
-            //b2.setVisible (false);
-            b2.stopFall ();
-        }
-        if (!b3.isStack ()) {
-            //b3.setVisible (false);
-            b3.stopFall ();
-        }
-        if (!b4.isStack ()) {
-            //b4.setVisible (false);
-            b4.stopFall ();
-        }
-        if (!b5.isStack ()) {
-            //b5.setVisible (false);
-            b5.stopFall ();
-        }
-    }
-
-    if (lives == 0) //If there are no lives left, the game is over
-        ingame = false;
+        if (lives == 0) //If there are no lives left, the game is over
+            ingame = false;
     }
 
 
