@@ -62,6 +62,7 @@ public class Board extends JPanel implements ActionListener {
     private int B_WIDTH;
     private int B_HEIGHT;
 
+    // TODO: replace declarations with a helper function
     //Creates random initial positions of the toppings
     //Lettuce positions
     private int[] [] pos = {
@@ -225,6 +226,7 @@ public class Board extends JPanel implements ActionListener {
                 g2d.drawImage (bun.getImage (), bun.getX (), bun.getY (), this);
             }
 
+            // TODO: replace if statements with helper function
             //For loop to draw toppings.
             for (int i = 0 ; i < lets.size () ; i++) {
                 Lettuce a = (Lettuce) lets.get (i);
@@ -271,6 +273,7 @@ public class Board extends JPanel implements ActionListener {
             //g2d.drawString ("Stacked: " + stackN, 500, 20);
             g2d.drawString ("Mistakes left: " + lives, 200, 20);
             
+            // TODO: replace display code with helper function
             //If the player wins
             if (win) {
                 String msg = "Burger Done!";
@@ -313,6 +316,7 @@ public class Board extends JPanel implements ActionListener {
         // Updates bun location
         bun.move ();
 
+        // TODO: replace with helper
         //Updates topping locations
         //Based on if it's stacked and the bun's x coordinate
         for (int i = 0 ; i < lets.size () ; i++) {
@@ -375,6 +379,7 @@ public class Board extends JPanel implements ActionListener {
             lives = 3;
         }
 
+        // TODO: fix this... oh God
         //Rectangle is created for every topping.
         //There is probably more efficient ways to do this... let it be...
         Lettuce a1 = (Lettuce) lets.get (0);
