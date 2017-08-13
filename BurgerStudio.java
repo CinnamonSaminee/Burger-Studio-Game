@@ -13,26 +13,19 @@ Description: A game called "Burger Studio". The player uses the
 */
 import javax.swing.*;
 
+public class BurgerStudio extends JFrame {
 
-public class BurgerStudio extends JFrame
-{
-
-    public BurgerStudio () throws Exception
-    {
-	this.getContentPane ().add (new Board ());
-
-	this.setDefaultCloseOperation (JFrame.EXIT_ON_CLOSE);
-	this.setSize (800, 700);
-	this.setLocationRelativeTo (null);
-	this.setTitle ("*** =^.^= *** Burger Studio *** =^.^= ***");
-	this.setResizable (false);
-	this.setVisible (true);
-
+    public BurgerStudio () throws Exception {
+        this.getContentPane ().add (new Board ());
+        this.setDefaultCloseOperation (JFrame.EXIT_ON_CLOSE);
+        this.setSize (800, 700);
+        this.setLocationRelativeTo (null);
+        this.setTitle ("*** =^.^= *** Burger Studio *** =^.^= ***");
+        this.setResizable (false);
+        this.setVisible (true);
     }
 
-
-    public static void main (String[] args) throws Exception
-    {
-	new BurgerStudio ();
+    public static void main (String[] args) throws Exception {
+        new BurgerStudio ();
     }
 }
