@@ -21,9 +21,7 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 
-
-public class Bun
-{
+public class Bun {
 
     //The name of the image representing the bun
     private String bun = "BurgerBun.png";
@@ -45,132 +43,99 @@ public class Bun
     private boolean visible;
 
     //Constructs the bun
-    public Bun ()
-    {
-	//Creates the image representing the bun
-	ImageIcon ii = new ImageIcon (this.getClass ().getResource (bun));
-	image = ii.getImage ();
-
-	//Calculcates the size of the bun image.
-	width = image.getWidth (null);
-	height = image.getHeight (null);
-
-	visible = true;
-
-	//Sets the initial position of the bun
-	x = 350;
-	y = 600;
-
+    public Bun () {
+	   //Creates the image representing the bun
+	   ImageIcon ii = new ImageIcon (this.getClass ().getResource (bun));
+	   image = ii.getImage ();
+    
+	   //Calculcates the size of the bun image.
+	   width = image.getWidth (null);
+	   height = image.getHeight (null);
+    
+	   visible = true;
+    
+	   //Sets the initial position of the bun
+	   x = 350;
+	   y = 600;
     }
-
 
     // Moves the bun
-    public void move ()
-    {
-	x += dx;
-
-	//If statement keeps it within the board width
-	if (x < 1)
-	{
-	    x = 1;
-	}
-	else if (x > 700)
-	{
-	    x = 700;
-	}
+    public void move () {
+	   x += dx;
+    
+	   //If statement keeps it within the board width
+	   if (x < 1) {
+	       x = 1;
+	   }
+	   else if (x > 700) {
+	       x = 700;
+	   }
     }
 
-
     // Returns the x-coordinate of the bun
-    public int getX ()
-    {
-	return x;
+    public int getX () {
+	   return x;
     }
 
 
     // Returns the y-coordinate of the bun
-    public int getY ()
-    {
-	return y;
+    public int getY () {
+	   return y;
     }
-
 
     //Method for possible power-down that was never finshed... sorry...
-    public void decreaseSpeed ()
-    {
-	speed = 1;
-
-	timer.start ();
+    public void decreaseSpeed () {
+	   speed = 1;
+	   timer.start ();
     }
-
 
     //...keeping it in case...
-    public void increaseSpeed ()
-    {
-	speed = 5;
-
-	timer.start ();
+    public void increaseSpeed () {
+	   speed = 5;
+	   timer.start ();
     }
-
 
     // Returns the image of the bun
-    public Image getImage ()
-    {
-	return image;
+    public Image getImage () {
+	   return image;
     }
-
 
     //Sets the visibility of the bun
-    public void setVisible (boolean visible)
-    {
-	this.visible = visible;
+    public void setVisible (boolean visible) {
+	   this.visible = visible;
     }
-
 
     //Returns whether or not the bun is visible
-    public boolean isVisible ()
-    {
-	return visible;
+    public boolean isVisible () {
+	   return visible;
     }
-
 
     //Returns a Rectangle object representing the shape of the bun
-    public Rectangle getBounds ()
-    {
-	return new Rectangle (x, y, width, height);
+    public Rectangle getBounds () {
+	   return new Rectangle (x, y, width, height);
     }
-
 
     //Movement in reaction to pressed keys
-    public void keyPressed (KeyEvent e)
-    {
-	int key = e.getKeyCode ();
-
-	if (key == KeyEvent.VK_LEFT)
-	{
-	    dx = speed * -1;
-	}
-
-	if (key == KeyEvent.VK_RIGHT)
-	{
-	    dx = speed;
-	}
+    public void keyPressed (KeyEvent e) {
+	   int key = e.getKeyCode ();
+    
+	   if (key == KeyEvent.VK_LEFT) {
+	       dx = speed * -1;
+	   }
+	   if (key == KeyEvent.VK_RIGHT) {
+	       dx = speed;
+	   }
     }
 
-
     //Movement in reaction to released keys
-    public void keyReleased (KeyEvent e)
-    {
-	int key = e.getKeyCode ();
-
-	if (key == KeyEvent.VK_LEFT)
-	{
-	    dx = 0;
-	}
-
-	if (key == KeyEvent.VK_RIGHT)
-	{
-	    dx = 0;
-	}
+    public void keyReleased (KeyEvent e) {
+	   int key = e.getKeyCode ();
+    
+	   if (key == KeyEvent.VK_LEFT) {
+	       dx = 0;
+	   }
+	   if (key == KeyEvent.VK_RIGHT) {
+	       dx = 0;
+	   }
     }
 }
