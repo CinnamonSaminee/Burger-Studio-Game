@@ -77,7 +77,6 @@ public class Bun {
 	   return x;
     }
 
-
     // Returns the y-coordinate of the bun
     public int getY () {
 	   return y;
