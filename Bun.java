@@ -1,14 +1,4 @@
 /*
-Name: Samin Saberi
-Date: January 20th, 2014
-Description: A game called "Burger Studio". The player uses the
-    left and right arrow keys to move a bottom bun and catch
-    toppings according to the number of each topping required,
-    which is displayed on the top left of the game screen.
-    The player is granted 3 'lives' which will allow them to 
-    catch an incorrect topping 3 times before a "Game Over"
-    screen is shown.
-    
     This class represents the bottom bun.
 */
 import java.awt.Image;
